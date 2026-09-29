@@ -54,7 +54,7 @@ _Share what you've automated with your Dot — PRs welcome._
 
 ## Tools & Integrations
 
-_SDKs, MCP servers, Slack/email bridges and other tooling for Dots — PRs welcome._
+- [dots-mcp](https://github.com/mergisi/dots-mcp) — MCP server to search Dots resources from Claude, Cursor and other MCP clients.
 
 ## Avatars
 
