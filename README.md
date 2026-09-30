@@ -28,7 +28,7 @@ Rolling out gradually; access may take several days to reach your account ([Open
 | --- | --- | --- |
 | **Pro** | ✅ First dot included | All supported markets **except the EEA, Switzerland and the UK** |
 | **Business Premium** | ✅ First dot included | All supported ChatGPT regions |
-| **Enterprise, Edu, Healthcare** | 🧪 Beta, off by default | When a workspace admin enables it |
+| **Enterprise, Edu, Healthcare** | 🧪 Beta, off by default | When a workspace admin enables it. Custom rules and local computer access are separate settings, also off by default. No phone messaging at launch |
 | **Plus, Free, Business** | ❌ Not at launch | OpenAI plans to expand to more users |
 | **Under 18** | ❌ | Not available |
 
@@ -38,8 +38,8 @@ Rolling out gradually; access may take several days to reach your account ([Open
 | Mobile app | ✅ After setup, when mobile access is available. Mobile web not supported |
 | Slack | ✅ Set up from desktop |
 | Microsoft Teams | ✅ |
-| Voice calls | ✅ You can call your dot; it can't call you at launch |
-| Texting | 🧪 Limited beta, Pro users in the US only |
+| Voice calls | ✅ Phone button in your dot's conversation. Calls started by your dot are planned for after launch |
+| Texting | 🧪 Limited beta for US Pro users per the Help Center; the Learn docs still list it as coming soon |
 | Personal email | ✅ Connect your own account. No standalone email address for your dot |
 | Your own computer | Optional, off by default. Connect from the ChatGPT desktop app |
 | More than one dot | ⏳ Planned |
@@ -73,6 +73,8 @@ From OpenAI's launch post:
 - [Introducing the Agents API](https://openai.com/index/introducing-the-agents-api/) — Build cloud agents on the open-source Codex harness.
 - [Introducing GPT-6.1 Sol](https://openai.com/index/introducing-gpt-6-1-sol/) — New model announced alongside dots.
 - [OpenAI DevDay 2026](https://devday.openai.com/) — Event site.
+- [ChatGPT Learn: dots docs](https://learn.chatgpt.com/docs/dots) — Official docs: [getting started](https://learn.chatgpt.com/docs/dots/getting-started), [messaging](https://learn.chatgpt.com/docs/dots/channels), [tasks and memory](https://learn.chatgpt.com/docs/dots/tasks-and-memory), [computers and apps](https://learn.chatgpt.com/docs/dots/computers-and-apps), [controls](https://learn.chatgpt.com/docs/dots/controls).
+- [Manage dots in ChatGPT workspaces](https://help.openai.com/en/articles/20001554-manage-dots-in-chatgpt-workspaces) — Help Center for Enterprise admins: access, local computer, custom rules, Slack/Teams, cloud browser.
 - [Getting started with your dot](https://help.openai.com/en/articles/20001530-getting-started-with-your-dot) — Help Center: setup, apps, scheduling, texting, memory, rules, reset.
 - [Dots privacy, security, and safety FAQs](https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs) — Help Center: permissions, data use, approvals, prompt injection, passwords.
 
@@ -140,6 +142,8 @@ Early reports from the launch version. Open a PR if you have a fix or workaround
 - Dropped messages ([Every](https://every.to/vibe-check/vibe-check-openai-devday-2026)).
 - Dot unable to connect to the in-app browser ([Every](https://every.to/vibe-check/vibe-check-openai-devday-2026)).
 - Setup requires the ChatGPT desktop app or desktop web; mobile web isn't supported ([OpenAI Help](https://help.openai.com/en/articles/20001530-getting-started-with-your-dot)).
+- Some websites block cloud browsers; your dot's cloud browser doesn't inherit your personal browser logins ([ChatGPT Learn](https://learn.chatgpt.com/docs/dots/computers-and-apps)).
+- Adding your dot to a Slack channel doesn't start monitoring; ask it to set up and confirm a monitoring task ([ChatGPT Learn](https://learn.chatgpt.com/docs/dots/channels)).
 - You can't view or delete individual dot memories; resetting the dot is the only way ([OpenAI Help](https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs)).
 
 ## Community
