@@ -109,6 +109,8 @@ Dots connect to apps through ChatGPT plugins, so building a plugin is how develo
 
 - [AgentForEach](https://github.com/AgentForEach/AgentForEach) — Open-source backend for building personal AI agent products.
 - [opendot (defog-ai)](https://github.com/defog-ai/opendot) — Self-hosted assistant that runs Codex or Claude Code in a locked-down container.
+- [Kortix](https://openaidotsalternative.com) — Open-source CompanyOS: your agents, skills, memory and connectors in one repo you own. Any model, self-host or cloud.
+
 - [opendots](https://github.com/diggerhq/opendots) — Open-source, model-agnostic always-on personal agent.
 
 ## DevDay 2026 sessions
